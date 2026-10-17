@@ -33,8 +33,8 @@ export const register: Register = on => {
               })
             }}
           >
-            {/* Spaces at both edges widen the highlight a hover draws. */}
-            {` ⧉ ${COPY} `}
+            {/* The icon alone; `label` names it. Spaces at both edges widen the highlight a hover draws. */}
+            {' ⧉ '}
           </Button>
         </Box>
       </Box>
