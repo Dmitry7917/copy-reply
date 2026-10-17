@@ -1,0 +1,5 @@
+{
+  "name": "copy-reply",
+  "owner": { "name": "d.bormisov" },
+  "plugins": [{ "name": "copy-reply", "source": "./" }]
+}
