@@ -1,6 +1,6 @@
 import type { Register } from 'claude-code'
 
-const COPY = 'копировать'
+const COPY = 'copy'
 
 /** Why a copy did not reach the clipboard, in the person's words. */
 const FAILURES = {
@@ -33,7 +33,8 @@ export const register: Register = on => {
               })
             }}
           >
-            {`⧉ ${COPY}`}
+            {/* Spaces at both edges widen the highlight a hover draws. */}
+            {` ⧉ ${COPY} `}
           </Button>
         </Box>
       </Box>
